@@ -1,6 +1,6 @@
 {
   "name": "isbot-bundle",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Auban le Grelle <auban@viamonkey.com>",
   "homepage": "https://github.com/RedCastor/isbot-bundle",
   "licenses": [
@@ -11,8 +11,11 @@
   ],
   "description": "isbot Bundle UMD",
   "keywords": [
-    "isbot",
-    "js"
+    "bot",
+    "crawlers",
+    "spiders",
+    "googlebot",
+    "useragent"
   ],
   "repository": {
     "type": "git",
