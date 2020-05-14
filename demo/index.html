@@ -1,0 +1,34 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>isBot</title>
+    <meta name="description" content="Detect bots/crawlers/spiders using the user agent string.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="isBot" />
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+<h1>Is Bot: <span id="is_bot"></span></h1>
+<h2>User Agent: <span id="user_agent"></span></h2>
+<h3>You can test with extension <a target="_blank" href="https://chrome.google.com/webstore/detail/user-agent-switcher/clddifkhlkcojbojppdojfeeikdkgiae">User-Agent Switcher</a></h3>
+
+<script src="../dist/isbot.js"></script>
+<script>
+    console.log(navigator.userAgent);
+    console.log('Is Bot: ' + window.isBot(navigator.userAgent));
+
+    var user_agent_elem = document.getElementById('user_agent');
+    var is_bot_elem = document.getElementById('is_bot');
+
+    user_agent_elem.textContent = navigator.userAgent;
+    is_bot_elem.textContent = window.isBot(navigator.userAgent).toString();
+</script>
+</body>
+
+</html>
