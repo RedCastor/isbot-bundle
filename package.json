@@ -1,13 +1,24 @@
 {
   "name": "isbot-bundle",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Auban le Grelle <auban@viamonkey.com>",
+  "homepage": "https://github.com/RedCastor/isbot-bundle",
   "licenses": [
     {
       "type": "MIT",
       "url": "http://opensource.org/licenses/MIT"
     }
   ],
+  "description": "isbot Bundle UMD",
+  "keywords": [
+    "isbot",
+    "js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RedCastor/isbot-bundle.git"
+  },
+  "main": "dist/isbot.umd.js",
   "dependencies": {
     "isbot": "^2.5.7"
   },
