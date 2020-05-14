@@ -11,5 +11,11 @@ npm install isbot-bundle
 yarn add isbot-bundle
 ```
 
+## Usage
+
+```js
+window.isBot(navigator.userAgent);
+```
+
 [Demo]: http://redcastor.github.io/isbot-bundle/demo/
 [isbot]: https://github.com/gorangajic/isbot
